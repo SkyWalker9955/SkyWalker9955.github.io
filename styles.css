@@ -5,3 +5,39 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 14.75rem;
+    border: none;
+
+}
+
+h1 { 
+
+}
+
+h2 {
+
+}
+
+h3 {
+}
