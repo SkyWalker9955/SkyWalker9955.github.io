@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
     <head>
@@ -25,28 +24,32 @@
         <main>
             <!-- ctrl + / is a comment in HTML -->
             <!-- image is a left side of main -->
-            <img src="img.jpg" width="300" height="450" alt="A beautiful bottle of Chanel parfume.">
+            <img class="product-img" src="img.jpg" width="300" height="450" alt="A beautiful bottle of Chanel parfume.">
             <div class="info">
 
-                <p>
+                <p class="product-category">
                     PERFUME
                 </p>
-                <p>
+                <h1>
                     Gabrielle Essence Eau De Parfum
-                </p>
-                <p>
+                </h1>
+                <p class="bodyText">
                     A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
                 </p>
 
                 <!-- priced and discount price in this div -->
                 <div class="prices">
-                    <p>$149.99</p>
-                    <p><s>$169.99</s></p>
+                    <p class="newPrice">$149.99</p>
+                    <p class="oldPrice"><s>$169.99</s></p>
                 </div>
 
-                <button class="cart-button">
-                    <img src="icon-cart.svg" alt="Shoping-Cart Icon">
-                    <p>Add to Cart</p>
+                <button 
+                    class="cart-button"
+                    type="submit"
+                
+                >
+                    <img style="padding: 10px;" src="icon-cart.svg" alt="Shoping-Cart Icon">
+                    <p class="button-text">Add to Cart</p>
                 </button>
 
             </div>

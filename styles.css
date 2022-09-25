@@ -4,16 +4,23 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: hsl(30, 38%, 92%)
 }
 main {
     display: flex;
     flex-direction: row;
+    width: 37.5rem;
+    box-shadow: 1rem;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    width: 18.75rem;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
 }
 
 .prices {
@@ -21,23 +28,94 @@ main {
     flex-direction: row;
 }
 
+.product-category{
+    margin-top: 0%;
+    margin-bottom: 1rem;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3rem;
+    font-family: 'Montserat', sans-serif;
+    font-weight: 500;
+    font-size: 0.85em;
+   
+}
+
+.product-img{
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+
+
+.bodyText {
+    font-family: 'Montserat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    color: hsl(228, 12%, 48%);
+    margin-top: 1.3em;
+    margin-right: 1em;
+
+}
+
 .cart-button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 14.75rem;
     border: none;
-
+    border-radius: 0.5rem;
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 0.7em;
+    transition: background-color 0.3s;
 }
+
+button:hover{
+    background-color: hsl(158, 36%, 26%);;
+}
+button:focus{
+    outline:solid;
+    outline-color:hsl(39, 80%, 61%) ;
+}
+
+
+.button-text{
+    font-family: 'Montserat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: hsl(0, 0%, 100%);
+}
+
 
 h1 { 
-
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0.25em;
+    margin-right: 1em;
+    margin-bottom: 2%;
+    color: hsl(212, 21%, 14%);
+    line-height: 1em;
 }
 
-h2 {
-
+.newPrice{
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
 }
 
-h3 {
+.oldPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Montserat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    justify-content: center;
+    margin-left: 1.2em;
+    font-size: 14px;
 }
+
